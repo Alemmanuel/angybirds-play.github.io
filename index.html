@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <style>
+        .angrybirds{
+            top: 590px;
+            width: 50px;
+        }
+        .angrybirds1{
+            margin-top: 470px;
+            width: 50px;
+            margin-right: 40px;
+        }
+        .angrybirds2{
+            position: absolute;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            Vi: <input type="text" value="100" id="vi">
+        </div>
+        <div>
+            Theta: <input type="text" value="45" id="theta">
+        </div>
+        <div>
+            G: <input type="text" value="9.8" id="g">
+        </div>
+        <div>
+            <button onclick="resolve()" id="resolve">Resolve</button>
+        </div>
+        <div>
+            <button onclick="startMove()" id="move">Move</button>
+        </div>
+        <div id="area"></div>
+        <div>
+            <img class="angrybirds1" id="image" src="https://i.picasion.com/pic92/171f8354f21801c9e7bd274e768d1422.gif" alt="">
+        </div>
+    </div>
+</body>
+</html>
